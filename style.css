@@ -7,9 +7,10 @@ a {
     text-decoration: none;
 }
 
-.wraperrr{
+.wraperrr {
     overflow-x: hidden;
 }
+
 body {
     overflow-x: hidden;
     font-family: 'Open Sans', sans-serif;
@@ -19,7 +20,7 @@ header {
     width: 100%;
     background-color: black;
     display: flex;
-    position: sticky;
+    position: fixed;
     top: 0;
 }
 
@@ -27,6 +28,9 @@ li {
     list-style-type: none;
 }
 
+.iconClose{
+    display: none;
+}
 .header_logo {
     text-transform: uppercase;
     color: #4B0082;
@@ -39,9 +43,7 @@ li {
 }
 
 nav {
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 30%;
+    margin: 25px 5% 25px auto;
 }
 
 .topNav a {
@@ -59,54 +61,6 @@ nav {
 
 .topNav a.icon {
     display: none;
-}
-
-@media screen and (max-width: 963px) {
-    .topNav a {
-        display: none;
-    }
-
-    .topNav a.icon {
-        float: right;
-        margin-top: -17px;
-        display: block;
-        font-size: 25px;
-    }
-
-    nav {
-        width: 100%;
-    }
-
-    .topNav.responsive {
-        position: relative;
-        top: 50px;
-        left: -200px;
-    }
-
-    header .topNav.responsive {
-        height: 340px;
-    }
-
-    .topNav.responsive a.icon {
-        position: absolute;
-        top: -50px;
-        right: -200px;
-    }
-
-    .topNav.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
-
-    .second_block{
-        display: flex;
-        flex-direction: column;
-        align-items:center;
-    }
-    .second_block img{
-
-    }
 }
 
 main {
@@ -142,7 +96,7 @@ main {
 .second_block {
     justify-content: space-around;
     display: flex;
-    margin-bottom: 300px;
+    margin-bottom: 150px;
 }
 
 .second_block .price_header {
@@ -172,10 +126,113 @@ main {
     height: 600px;
 }
 
-.contacts_header p{
+.contacts_header {
+    width: 100%;
+}
+
+.contacts_header p {
     text-align: center;
     font-size: 44px;
     color: black;
     margin-top: 100px;
     margin-bottom: 32px;
+}
+
+.third_block .contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 963px) {
+
+    .header_logo {
+        text-transform: uppercase;
+        color: #4B0082;
+        font-size: 24px;
+        margin-left: 12%;
+        margin-top: 0;
+        margin-bottom: 0;
+        cursor: pointer;
+        font-weight: 800;
+    }
+
+    .topNav a {
+        display: none;
+    }
+
+    .topNav a.icon {
+        float: right;
+        margin-top: -12px;
+        display: block;
+        font-size: 25px;
+    }
+
+    nav {
+        width: 100%;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    .topNav.responsive {
+        top: 50px;
+        left: -200px;
+    }
+
+    header .topNav.responsive {
+        height: 200px;
+    }
+
+    .topNav.responsive a.icon {
+        position: absolute;
+        top: -50px;
+        right: -200px;
+    }
+
+    .topNav.responsive a {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+
+    .price_header p{
+        margin-top: 50px;
+    }
+
+    .first_block h1 {
+        text-align: center;
+        font-weight: normal;
+        font-size: 44px;
+        color: white;
+        margin-top: 200px;
+    }
+
+    .first_block p {
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        margin-bottom: 300px;
+    }
+
+    .second_block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 150px;
+    }
+
+    .third_block .contacts {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .third_block .contacts div {
+        margin-bottom: 16px;
+    }
+
+    .contacts_header p {
+        margin-top: 50px;
+    }
 }
