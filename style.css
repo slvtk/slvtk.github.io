@@ -28,9 +28,10 @@ li {
     list-style-type: none;
 }
 
-.iconClose{
+.iconClose {
     display: none;
 }
+
 .header_logo {
     text-transform: uppercase;
     color: #4B0082;
@@ -195,7 +196,7 @@ main {
         text-align: center;
     }
 
-    .price_header p{
+    .price_header p {
         margin-top: 50px;
     }
 
