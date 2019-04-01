@@ -1,24 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f78a9e4-91d9-4c73-a7b8-d9414fa38aed" name="Default Changelist" comment="first beta with svg graph">
-      <change afterPath="$PROJECT_DIR$/images/geolocation-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/instagram-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/pc-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projector-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ps4-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/telephone-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/vk-logo.svg" afterDir="false" />
+    <list default="true" id="3f78a9e4-91d9-4c73-a7b8-d9414fa38aed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/geoposition-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/instagram-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pc-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/projector-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ps4-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/telephone-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/vk-logo.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+            <state relative-caret-position="136">
+              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -52,30 +37,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="96" column="13" selection-start-line="96" selection-start-column="13" selection-end-line="96" selection-end-column="13" />
+            <state relative-caret-position="461">
+              <caret line="254" selection-start-line="254" selection-end-line="254" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/images/ps4-logo.svg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/pc-logo.svg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/vk-logo.svg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/projector-logo.svg">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -105,12 +70,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/menuScript.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/images/vk-logo.svg" />
         <option value="$PROJECT_DIR$/images/projector-logo.svg" />
         <option value="$PROJECT_DIR$/images/pc-logo.svg" />
         <option value="$PROJECT_DIR$/images/ps4-logo.svg" />
+        <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -134,11 +99,6 @@
               <item name="blackHall" type="b2602c69:ProjectViewProjectNode" />
               <item name="blackHall" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="blackHall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blackHall" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -149,7 +109,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -162,6 +122,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\WebstormProjects\blackHall" />
       <recent name="C:\Users\admin\WebstormProjects\blackHall\images" />
     </key>
   </component>
@@ -202,7 +163,7 @@
       <workItem from="1554110579005" duration="729000" />
       <workItem from="1554113660081" duration="16000" />
       <workItem from="1554120858304" duration="10529000" />
-      <workItem from="1554134372946" duration="1915000" />
+      <workItem from="1554134372946" duration="3208000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1554065124686</created>
@@ -232,11 +193,25 @@
       <option name="project" value="LOCAL" />
       <updated>1554130448786</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="first beta with svg graph">
+      <created>1554136341948</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1554136341948</updated>
+    </task>
+    <task id="LOCAL-00006" summary="first beta with svg graph">
+      <created>1554137506619</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1554137506619</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14976000" />
+    <option name="totallyTimeSpent" value="16269000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -256,7 +231,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -312,31 +287,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="96" column="13" selection-start-line="96" selection-start-column="13" selection-end-line="96" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/pc-logo.svg">
+    <entry file="file://$PROJECT_DIR$/images/projector-logo.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/images/vk-logo.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/projector-logo.svg">
+    <entry file="file://$PROJECT_DIR$/images/pc-logo.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/images/ps4-logo.svg">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="254" selection-start-line="254" selection-end-line="254" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
