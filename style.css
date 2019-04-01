@@ -7,7 +7,7 @@ a {
     text-decoration: none;
 }
 
-.wraperrr {
+.wrapper {
     overflow-x: hidden;
 }
 
@@ -94,6 +94,11 @@ main {
     margin-bottom: 424px;
 }
 
+.second_block img{
+    height: 128px;
+    width: 128px;
+}
+
 .second_block {
     justify-content: space-around;
     display: flex;
@@ -131,6 +136,15 @@ main {
     width: 100%;
 }
 
+.contacts img{
+    height: 128px;
+    width: 128px;
+}
+
+.contacts p{
+    text-align: center;
+}
+
 .contacts_header p {
     text-align: center;
     font-size: 44px;
@@ -148,6 +162,7 @@ main {
 @media screen and (max-width: 963px) {
 
     .header_logo {
+        text-align: center;
         text-transform: uppercase;
         color: #4B0082;
         font-size: 24px;
@@ -164,15 +179,15 @@ main {
 
     .topNav a.icon {
         float: right;
-        margin-top: -12px;
+        margin-top: 5px;
         display: block;
         font-size: 25px;
     }
 
     nav {
         width: 100%;
-        margin-bottom: 0px;
-        margin-top: 0px;
+        margin-bottom: 0;
+        margin-top: 0;
     }
 
     .topNav.responsive {
