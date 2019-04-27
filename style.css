@@ -124,7 +124,9 @@ main {
 
 .second_block li {
     margin-top: 10px;
-    text-align: center;
+}
+
+.second_block span{
     font-weight: bold;
 }
 
@@ -146,8 +148,8 @@ main {
     width: 128px;
 }
 
-.contacts p{
-    text-align: center;
+.contacts a{
+    color: black;
 }
 
 .contacts_header p {
@@ -160,7 +162,23 @@ main {
 
 .third_block .contacts {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.footer{
+    display: flex;
+}
+
+.footer img{
+    width: 32px;
+    height: 32px;
+}
+.footer .contacts{
+    display: flex;
+    margin-left: auto;
+}
+.footer p{
+    white-space: nowrap;
 }
 
 
@@ -245,6 +263,7 @@ main {
         flex-direction: column;
         align-items: center;
         margin-bottom: 150px;
+        text-align: center;
     }
 
     .third_block .contacts {
